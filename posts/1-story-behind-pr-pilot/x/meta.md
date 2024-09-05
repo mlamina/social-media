@@ -1,4 +1,4 @@
 # Meta
 
-tags: #AI #LLM #TechInnovation #DeveloperTools #Productivity
-channels: #TechCommunity #DeveloperLife
+tags: #AI #LLM #Productivity #DevLife #PRPilot
+channels: #TechTalk #DevCommunity
