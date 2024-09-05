@@ -1,1 +1,29 @@
-commands: []
+commands:
+- description: Generate a post for a specific platform
+  name: generate-post
+  params:
+    cheap: false
+    code: false
+    debug: false
+    direct: false
+    file: prompts/generate-post.md.jinja2
+    model: gpt-4o
+    snap: false
+    spinner: true
+    sync: true
+    verbose: true
+    wait: true
+- description: Answer a few questions and create a new draft
+  name: draft
+  params:
+    cheap: false
+    code: false
+    debug: false
+    direct: false
+    file: prompts/draft-post.md.jinja2
+    model: gpt-4o
+    snap: false
+    spinner: true
+    sync: true
+    verbose: true
+    wait: true
