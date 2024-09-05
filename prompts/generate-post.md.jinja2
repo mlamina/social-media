@@ -4,10 +4,12 @@ I have written a post in the following directory: {{ post_slug }}.
 
 {% set platform = select(prompt='Select platform', choices=['x', 'linkedin', 'facebook', 'devto', 'reddit', 'tumblr', 'discord']) %}
 
-I need you to generate a social media post for the following platforms: {{ platforms }}.
+I need you to generate a social media post for the following platform: {{ platform }}.
 
 {{ sh('cat prompts/platform-instructions/' + platform + '.md') }}
 
 ---
 
-Your task: Write a social media post for each platform.
+Do the following:
+1. Use your skill to write a social media post for each platform
+2. Respond with "Created post in `<path>` for `<platform>`."

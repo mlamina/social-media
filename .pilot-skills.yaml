@@ -11,4 +11,7 @@
     2. Write metadata for the post in `posts/<post-slug>/<platform>/meta.md`
     3. Add a link to the post in the `posts/README.md` file
   result: |
-    Confirm that all content has been created successfully, no further action is needed.
+    Briefly confirm that
+    - all content has been created successfully
+    - paths of the files created
+    - Emphasize that no further action is needed.
