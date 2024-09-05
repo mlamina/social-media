@@ -1,4 +1,4 @@
 # Meta
 
-tags: AI, LLM, productivity, developers, tech
-channels: devto
+title: The Story Behind PR Pilot
+tags: #AI, #Productivity, #DevTools, #SoftwareDevelopment
