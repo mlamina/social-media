@@ -1,8 +1,8 @@
-# AI-Assisted Social Media Posts
+# 📢 AI-Assisted Social Media Posts
 
 This project uses [PR Pilot](https://www.pr-pilot.ai) to help create and manage social media content across various platforms.
 
-## Project Structure
+## 🗂️ Project Structure
 
 All content is organized in the following structure:
 
@@ -11,69 +11,59 @@ All content is organized in the following structure:
 - `posts/<post-slug>/<platform>/post.md` - Generated post for the platform
 - `posts/<post-slug>/<platform>/meta.md` - Generated meta data for the post (e.g., tags, channels)
 
-### Instructions
-
 In [prompts/platform-instructions](prompts/platform-instructions), you will find instructions for generating posts 
 on each platform. Adjust them as needed.
 
-### How it Works
+## ⚙️ How it Works
 
 Generating a new post is easy
 
-### 1. Create a new Draft
+### 1️⃣ Create a new Draft
 
 Create a new draft in seconds, by answering a few questions:
 
 ```shell
-➜  social-media git:(main) pilot run draft
-
+➜  social-media git:(main) pilot run draft 
+    
 > What are you writing about: An AI-assisted Github template for rapid prototyping
-> Who is this post for: Indie devs
+> Who is this post for: Indie Devs
 > What is the key message: PR Pilot makes it super easy to quickly build and evaluate ideas
 > What is the call to action: Use the template to build, ship and evaluate your own prototype
 > Any additional notes: Template link: https://github.com/PR-Pilot-AI/rapid-prototyper
 ▸ List directory posts                                                                                                                                                                                                             
-✎ Write content to posts/2-ai-assisted-github-template/draft.md                                                                                                                                                                   
-✔ Draft new post: Rapid Prototyping with PR Pilot                                                                                                                                                                                  
-● Push branch create-a-social-media                                                                                                                                                                                                
-✔ Create PR #4 for branch create-a-social-media                                                                                                                                                                                    
-                                                                                                                                                                                              
-                                                                                        Draft Created                                                                                         
-                                                                                                                                                                                              
-  I have drafted the new post with the following content:                                                                                                                                     
-                                                                                                                                                                                              
-                                                                                                                                                                                              
-   # Rapid Prototyping with PR Pilot                                                                                                                                                          
-   An AI-assisted Github template for rapid prototyping                                                                                                                                       
-                                                                                                                                                                                              
-   ## Outline                                                                                                                                                                                 
-   - Introduction to PR Pilot                                                                                                                                                                 
-   - Benefits of using the template                                                                                                                                                           
-   - How to get started                                                                                                                                                                       
-   - Success stories from indie devs                                                                                                                                                          
-   - Call to action: Use the template to build, ship and evaluate your own prototype                                                                                                          
-                                                                                                                                                                                              
-   ## Links / Resources                                                                                                                                                                       
-   - [PR Pilot Rapid Prototyper Template](https://github.com/PR-Pilot-AI/rapid-prototyper)                                                                                                    
-                                                                                                                                                                                              
-                                                                                                                                                                                              
-                                                                                 Suggestions for Improvement                                                                                  
-                                                                                                                                                                                              
-   1 Catchy Title: Ensure the title is engaging and relevant to your target audience. The current title is "Rapid Prototyping with PR Pilot," which is clear but could be more enticing.      
-   2 Detailed Outline: Expand the bullet points in the outline to provide more detail. This will help in structuring the post better.                                                         
-   3 Visuals: Consider adding visuals or examples to make the post more engaging. Screenshots or diagrams can help illustrate the benefits and usage of the template.                         
-   4 Testimonials: Including quotes or testimonials from indie developers who have successfully used the template can add credibility and encourage others to try it.                         
-   5 SEO Optimization: Use keywords that your target audience is likely to search for. This will help in making the post more discoverable.                                                   
-                                                                                                                                                                                              
-  Feel free to review and make any additional changes as needed!                                                                                                                              
-                                                                                                                                                                                              
-↻ Pull latest changes from create-a-social-media 
+✎ Write content to posts/2-ai-assisted-github-template/draft.md                                                                                                                                                                    
+✔ Draft initial outline for AI-assisted Github template post                                                                                                                                                                       
+● Push branch create-a-social-media-2                                                                                                                                                                                              
+✔ Create PR #6 for branch create-a-social-media-2                                                                                                                                                                                  
+                                                                                                                                                   
+  Here are some suggestions to help you fill out the initial draft:                                                                                
+                                                                                                                                                   
+   1 Introduction                                                                                                                                  
+      • Add a meme about the struggles of manual prototyping to highlight the ease PR Pilot brings.                                                
+      • Provide a brief history of PR Pilot to support the message of innovation.                                                                  
+   2 Key Features                                                                                                                                  
+      • Include a screenshot of the Github template in action to visually support the features.                                                    
+      • Add a testimonial from an indie dev who has used the template to emphasize its effectiveness.                                              
+   3 Benefits                                                                                                                                      
+      • Provide a detailed comparison between traditional prototyping methods and using PR Pilot to support the message of saving time and         
+        effort.                                                                                                                                    
+      • Include a case study or example project that was successfully built using the template.                                                    
+   4 How to Get Started                                                                                                                            
+      • Add a video tutorial link to help users understand the setup process.                                                                      
+      • Provide a checklist of prerequisites needed before starting with the template.                                                             
+   5 Links / Resources                                                                                                                             
+      • Include a link to the PR Pilot documentation to help the reader understand the tool better.                                                
+      • Add a link to a community forum or Discord channel where users can ask questions and share their experiences.                              
+                                                                                                                                                   
+  These suggestions should help you create a comprehensive and engaging post.                                                                      
+                                                                                                                                                   
+↻ Pull latest changes from create-a-social-media-2   
 ```
 
 Use this as a starting point and add more detailed information about the post
 
-### 2. Generate posts
-PR Pilot will use your content to generate posts for the platforms you choose.
+### 2️⃣ Generate posts for different platforms
+Once you have a decent draft, PR Pilot will use your content to generate posts for the platforms you choose.
 
 Run `pilot run generate-post` and select the post and platform you want to generate a post for:
 ```shell
@@ -112,13 +102,13 @@ Run `pilot run generate-post` and select the post and platform you want to gener
 ↻ Pull latest changes from create-social-media           
 ```
 
-### 3. Review and Edit
+### 3️⃣ Review and Edit
 Review the generated posts and make any necessary edits, then publish them on the respective platforms.
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues, fork the repository, and send pull requests.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
