@@ -1,7 +1,5 @@
 # Meta
 
-tags: AI, SoftwareDevelopment, Productivity, DevLife
-
 # Post
 
 ## Remember the first time you saw an LLM write code?
