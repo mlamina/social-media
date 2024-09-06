@@ -11,16 +11,15 @@ Learn how to create beautiful and effective PR descriptions effortlessly with PR
 ### Benefits of Using PR Pilot
 - Consistency in PR descriptions
 - Time-saving
-- Customizable templates
+- Customizable prompt template (https://github.com/PR-Pilot-AI/core/blob/main/prompts/generate-pr-description.md.jinja2)
 
 ### How to Get Started
-- Installation steps
-- Basic configuration
+(Scrape from https://docs.pr-pilot.ai/#quick-start)
 
 ### Advanced Tips
 - Customizing templates
 - Automating repetitive tasks
 
 ## Links / Resources
-- [PR Pilot GitHub Repository](https://github.com/mlamina/social-media)
-- [PR Pilot Documentation](https://github.com/mlamina/social-media/wiki)
+- PR Pilot user guide; https://docs.pr-pilot.ai/user_guide.html
+- PR Pilot demo repo with more automation use cases https://github.com/PR-Pilot-AI/demo
