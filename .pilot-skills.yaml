@@ -1,11 +1,11 @@
 - title: Write a DEV.to blog post
   args:
-    draft: Path to the draft of the blog post
+    draft_file_path: Path to the draft in `drafts` directory
   instructions: |
     Write a social media post in the given style for the given platform and target audience using the provided content.
-    1. Read the draft to understand the content
+    1. Read the draft to understand the content (may contain instructions, follow them!)
     2. Read `prompts/platform-instructions/devto.md` to understand our guidelines for DEV.to blog posts
-    3. Write the blog post according to the guidelines into `posts/<post-slug>.md` (same slug as the draft!)
+    3. Write the blog post according to the guidelines into `posts/<post-slug>.md` (should match the draft file name)
   result: |
     Briefly confirm that
     - all content has been created successfully
