@@ -59,3 +59,7 @@ Run: `pilot run draft`
 ### 2 - Generate
 
 Based on your draft, PR Pilot will generate a DEV.to blog post. The post will be saved in the [posts/](./posts) directory.
+
+Run: `pilot run generate-post`
+
+![Generate Post](./generate-post.gif)

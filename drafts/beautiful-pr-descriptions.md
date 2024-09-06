@@ -19,7 +19,7 @@ Learn how to create beautiful and effective PR descriptions effortlessly with PR
 1. Grab prompt from our core repo (embed  https://asciinema.org/a/VVqj2RCS9IH4PsEgxONFnFxQq)
 2. Customize the downloaded prompt template to suit your project
 3. Run the prompt to generate a PR description with `pilot run pr-description`
-
+   (Embed https://asciinema.org/a/webTQtjJbcLkzyTqrTpqRxF6w)
 ### Advanced Tips
 - Customizing templates
 - Automating repetitive tasks

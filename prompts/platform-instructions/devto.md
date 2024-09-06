@@ -14,3 +14,10 @@
 - **Use of Emojis**: Sprinkle in emojis to add personality and convey emotions.
 - **Summarize Key Points**: Provide a summary or TL;DR section to give readers a quick overview of the content.
 - **Interactive Elements**: Encourage reader interaction through comments or questions.
+
+## Embeddings
+We use asciinema for terminal recordings. You can embed them using the following:
+
+```
+{% embed https://asciinema.org/a/webTQtjJbcLkzyTqrTpqRxF6w %}
+```

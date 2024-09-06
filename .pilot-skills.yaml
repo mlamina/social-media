@@ -5,7 +5,7 @@
     Write a social media post in the given style for the given platform and target audience using the provided content.
     1. Read the draft to understand the content
     2. Read `prompts/platform-instructions/devto.md` to understand our guidelines for DEV.to blog posts
-    3. Write the blog post according to the guidelines into `posts/<post-slug>.md`
+    3. Write the blog post according to the guidelines into `posts/<post-slug>.md` (same slug as the draft!)
   result: |
     Briefly confirm that
     - all content has been created successfully
