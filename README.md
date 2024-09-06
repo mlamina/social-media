@@ -28,3 +28,34 @@ All content is organized in the following structure:
 - `posts/` - Contains all generated posts
 - `dist/` - Contains all distributed posts
 - `prompts/` - Contains prompts for generating posts
+
+## How to Use
+
+Use the pilot commands in this directory to run the pipeline stages.
+
+```shell
+➜  social-media git:(create-a-draft-for-a) ✗ pilot run
+Usage: pilot run [OPTIONS] COMMAND [ARGS]...
+
+  🚀 Run a saved command.
+
+  Create new commands by using the --save-command flag when running a task.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  draft          Answer a few questions and create a new draft
+  generate-post  Generate a post for a specific platform
+```
+
+### 1 - Draft
+PR Pilot will [ask you a series of questions](./prompts/draft-post.md.jinja2) to draft a new social media post. The draft will be saved in the [drafts/](./drafts) directory.
+
+Run: `pilot run draft`
+
+![Draft](./generate_draft.gif)
+
+### 2 - Generate
+
+Based on your draft, PR Pilot will generate a DEV.to blog post. The post will be saved in the [posts/](./posts) directory.
