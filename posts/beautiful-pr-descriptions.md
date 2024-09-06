@@ -27,6 +27,14 @@ It's dead simple. All you do is run `pilot run pr-description` and:
 2. It will read the PR description, comments, commits and code changes
 3. It will generate a new PR description based on your preferences
 
+<details>
+  <summary>See the full prompt</summary>
+  <p>It's dead simple. All you do is run `pilot run pr-description` and:
+1. The agent asks you for the PR number
+2. It will read the PR description, comments, commits and code changes
+3. It will generate a new PR description based on your preferences</p>
+</details>
+
 ## How to Get Started
 
 Getting started with PR Pilot is a breeze! Follow these simple steps:
