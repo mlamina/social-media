@@ -1,3 +1,5 @@
+# Mastering PR Descriptions: Make Your PRs Stand Out
+
 ## TL;DR
 Learn how to create beautiful and effective PR descriptions effortlessly with PR Pilot in minutes.
 
