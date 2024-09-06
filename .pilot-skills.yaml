@@ -1,17 +1,13 @@
-- title: Write a social media post
+- title: Write a DEV.to blog post
   args:
-    platform: The social media platform
-    source_content: User-provided content for the post
-    post_slug: Slug of the post
-    target_audience: The target audience for the post
-    style: The style of the post
+    draft: Path to the draft of the blog post
   instructions: |
     Write a social media post in the given style for the given platform and target audience using the provided content.
-    1. Write the post into `posts/<post-slug>/<platform>/post.md`
-    2. Write metadata for the post in `posts/<post-slug>/<platform>/meta.md`
-    3. Add a link to the post in the `posts/README.md` file
+    1. Read the draft to understand the content
+    2. Read `prompts/platform-instructions/devto.md` to understand our guidelines for DEV.to blog posts
+    3. Write the blog post according to the guidelines into `posts/<post-slug>.md`
   result: |
     Briefly confirm that
     - all content has been created successfully
-    - paths of the files created
+    - path of the blog post file created
     - Emphasize that no further action is needed.
