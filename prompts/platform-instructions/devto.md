@@ -11,8 +11,8 @@
 - **Links to Resources**: Include links to relevant resources, documentation, or further reading.
 - **Screenshots and Code Snippets**: Use screenshots and code snippets to illustrate points and provide practical examples.
 - **Consistent Tone**: Maintain a conversational and friendly tone throughout the post.
-- **Use of Emojis**: Sprinkle in emojis to add personality and convey emotions.
-- **Summarize Key Points**: Provide a summary or TL;DR section to give readers a quick overview of the content.
+- **Use of Emojis**: Heavily use emojis to add personality and convey emotions.
+- **Summarize Key Points**: Provide a TL;DR section at the very beginning of the post.
 - **Interactive Elements**: Encourage reader interaction through comments or questions.
 
 ## Embeddings
@@ -21,3 +21,4 @@ We use asciinema for terminal recordings. You can embed them using the following
 ```
 {% embed https://asciinema.org/a/webTQtjJbcLkzyTqrTpqRxF6w %}
 ```
+
