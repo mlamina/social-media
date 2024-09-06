@@ -15,11 +15,11 @@ graph TD;
 ## Pipeline Stages
 
 The pipeline has five stages:
-1. **Draft** - Drafts are stored as Markdown files in the `drafts` directory.
-2. **Generate** - From the draft, a DEV.to blog post is generated.
-3. **Review** - The generated post is reviewed and edited before being published.
-4. **Publish** - The post is published on the DEV Community platform.
-5. **Distribute** - Secondary posts for other platforms are generated, linked to the original post, and published.
+- 1️⃣ **Draft** - Drafts are stored as Markdown files in the `drafts` directory.
+- 2️⃣ **Generate** - From the draft, a DEV.to blog post is generated.
+- 3️⃣ **Review** - The generated post is reviewed and edited before being published.
+- 4️⃣ **Publish** - The post is published on the DEV Community platform.
+- 5️⃣ **Distribute** - Secondary posts for other platforms are generated, linked to the original post, and published.
 
 ## Project Structure
 
@@ -49,17 +49,36 @@ Commands:
   generate-post  Generate a post for a specific platform
 ```
 
-### 1 - Draft
+### 1️⃣ Draft
 PR Pilot will [ask you a series of questions](./prompts/draft-post.md.jinja2) to draft a new social media post. The draft will be saved in the [drafts/](./drafts) directory.
 
 Run: `pilot run draft`
 
 ![Draft](./generate_draft.gif)
 
-### 2 - Generate
+### 2️⃣ Generate
 
 Based on your draft, PR Pilot will generate a DEV.to blog post. The post will be saved in the [posts/](./posts) directory.
 
 Run: `pilot run generate-post`
 
 ![Generate Post](./generate-post.gif)
+
+### 3️⃣ Review
+
+Review the generated post in the [posts/](./posts) directory. Make any necessary edits before publishing.
+
+### 4️⃣ Publish
+You can publish your post using the [upload_devto_article.py](./upload_devto_article.py) script. It will automatically
+create a new post or update the existing:
+```shell
+python upload_devto_article.py
+
+1. story-of-pr-pilot.md
+2. README.md
+3. beautiful-pr-descriptions.md
+Select a post to publish: 3
+Article already published with ID 1989749, updating...
+Article updated successfully!
+
+```
