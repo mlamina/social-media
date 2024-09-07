@@ -89,3 +89,12 @@ Article already published with ID 1989749, updating...
 Article updated successfully!
 
 ```
+
+### 5️⃣ Distribute
+You can now distribute your post to other platforms. PR Pilot will write the content for each platform.
+
+```shell
+pilot run distribute
+```
+
+This will generate a distribution file in the [dist/](./dist) directory. You can then copy the content to the respective platforms.
