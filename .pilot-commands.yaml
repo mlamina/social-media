@@ -37,9 +37,9 @@ commands:
     file: prompts/generate-pr-description.md.jinja2
     model: gpt-4o
     snap: false
-    spinner: false
+    spinner: true
     sync: false
-    verbose: false
+    verbose: true
     wait: true
 - description: Make changes to a post
   name: edit-post
