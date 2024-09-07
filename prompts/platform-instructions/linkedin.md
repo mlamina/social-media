@@ -2,6 +2,5 @@
 - Keep the tone professional yet approachable
 - Use a clear and concise writing style
 - Highlight key points with bullet points or numbered lists
-- Include a call-to-action to encourage engagement
-- Add relevant hashtags to increase visibility
-- Use images or videos to make the post more engaging
+- Include a call-to-action / question to encourage engagement
+- Add relevant hashtags at the bottom to increase visibility
